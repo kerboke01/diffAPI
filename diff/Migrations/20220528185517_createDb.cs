@@ -7,6 +7,10 @@ namespace diff.Migrations
 {
     public partial class createDb : Migration
     {
+        /// <summary>
+        /// It was modified to remove identity property
+        /// </summary>
+        /// <param name="migrationBuilder"></param>
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
